@@ -1,6 +1,7 @@
-# Store text into variable
 user_prompt = "Enter a todo: "
-# Ask user for input using predefined text
-text = input(user_prompt)
-# output user input
-print(text)
+todo1 = input(user_prompt)
+todo2 = input(user_prompt)
+todo3 = input(user_prompt)
+
+todos = [todo1, todo2, todo3]
+print(todos)
